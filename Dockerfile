@@ -1,4 +1,4 @@
-FROM 10.20.0.6:5000/tomcat-8.5.31
+FROM registry.cn-hangzhou.aliyuncs.com/nnzxg/oracle_java8_tomcat8_noapp
 ENV JAVA_OPS " -Dfile.encoding=UTF8 -Dsun.jnu.encoding=UTF8" 
 ENV CATALINA_HOME=/opt/tomcat/apache-tomcat-8.5.31
 ENV CATALINA_BASE=/opt/tomcat/apache-tomcat-8.5.31
