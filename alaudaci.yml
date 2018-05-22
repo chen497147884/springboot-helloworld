@@ -1,6 +1,6 @@
 version: "0.1.0" 
 pre_ci_boot: 
-    image: 10.20.0.6:5000/oracle-java8
+    image: registry.cn-hangzhou.aliyuncs.com/nnzxg/oracle_java8_tomcat8_noapp
     tag: "latest"
 ci:
     - pwd
