@@ -156,6 +156,7 @@ RUN set -e \
 		echo >&2 "$nativeLines"; \
 		exit 1; \
 	fi
-
+# ADD helloworld-0.0.1-SNAPSHOT.war  /usr/local/tomcat/apache-tomcat-8.5.31/webapps 
+# RUN chmod +x  /usr/local/tomcat/apache-tomcat-8.5.31/webapps/helloworld-0.0.1-SNAPSHOT.war
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
