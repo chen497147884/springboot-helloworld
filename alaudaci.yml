@@ -1,7 +1,7 @@
 version: "0.1.0" 
 pre_ci_boot: 
-    image: registry.cn-hangzhou.aliyuncs.com/nnzxg/oracle_java8_tomcat8_noapp
-    tag: "latest"
+    image: maven
+    tag: "3.5.3-jdk-8"
 ci:
     - pwd
     - mvn clean
