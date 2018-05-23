@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-slim	+FROM tomcat:8.5.31-jre8
+ FROM tomcat:8.5.31-jre8
  	 
  ENV CATALINA_HOME /usr/local/tomcat	 ENV CATALINA_HOME /usr/local/tomcat
 -ENV PATH $CATALINA_HOME/bin:$PATH	+ADD helloworld-0.0.1-SNAPSHOT.war $CATALINA_HOME/webapps
